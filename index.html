@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ACTIVITY 5 LYRICS</title>
+    <!-- styling -->
+    <style>
+      /* importing fonts from google fonts */
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+      /* reseting default */
+      *,
+      *::after,
+      *::before {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      html {
+        /* font size conversion for easy use of rem  default is: 1rem = 16px and this will become 1rem  = 10px  */
+        font-size: 62.5%;
+      }
+      body {
+        font-family: "Roboto", sans-serif;
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1.7;
+        background-color: #f0f3f2;
+      }
+      .main-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 144rem;
+        align-items: center;
+        margin: 0 auto;
+        padding: 5rem;
+      }
+
+      .verse-container {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        max-width: 55rem;
+        margin: 5rem;
+        /* border: 1px solid red; */
+      }
+      .song-title {
+        color: #222;
+        max-width: 60rem;
+        text-align: center;
+      }
+      .para {
+        color: #444;
+      }
+      /* media querries for mobile and other devices - responsive */
+      @media only screen and (max-width: 600px) {
+        .main-container {
+          padding: 3.2rem;
+        }
+        .verse-container {
+          gap: 2rem;
+          width: 100%;
+          margin: 2rem;
+          /* border: 1px solid red; */
+        }
+        .song-title {
+          width: 100%;
+        }
+        .para {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <header class="song-title">
+        <h1>Need You Now (Lyrics) - Lady Antebellum</h1>
+      </header>
+      <div class="verse-container">
+        <p class="para">
+          Picture perfect memories, scattered all around the floor. Reaching for
+          the phone, 'cause I can't fight it any more. And I wonder if I ever
+          cross your mind For me, it happens all the time.
+        </p>
+        <p class="para">
+          It's a quarter after one, I'm all alone and I need you now. Said I
+          wouldn't call, but I've lost all control and I need you now. And I
+          don't know how I can do without, I just need you now.
+        </p>
+        <p class="para">
+          Another shot of whiskey, can't stop lookin' at the door. Wishing you'd
+          come sweepin' in the way you did before. And I wonder if I ever cross
+          your mind. For me, it happens all the time.
+        </p>
+        <p class="para">
+          It's a quarter after one, I'm a little drunk and I need you now. Said
+          I wouldn't call, but I've lost all control and I need you now. And I
+          don't know how I can do without, I just need you now.
+        </p>
+        <p class="para">
+          Whoa-oh-whoa Guess I'd rather hurt than feel nothin' at all.
+        </p>
+        <p class="para">
+          It's a quarter after one, I'm all alone and I need you now. And I said
+          I wouldn't call, but I'm a little drunk and I need you now. And I
+          don't know how I can do without, I just need you now.
+        </p>
+        <p class="para">I just need you now.</p>
+        <p class="para">Oh, baby, I need you now.</p>
+      </div>
+    </div>
+  </body>
+</html>
